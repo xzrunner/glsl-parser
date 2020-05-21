@@ -99,7 +99,7 @@ protected:
     void read(token &out);
     void read(token &out, bool);
 
-    vector<char> readNumeric(bool isOctal, bool isHex);
+    std::vector<char> readNumeric(bool isOctal, bool isHex);
 
 private:
     const char *m_data;
