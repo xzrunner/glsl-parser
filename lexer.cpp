@@ -116,7 +116,7 @@ void lexer::read(token &out) {
                 isHexish = true;
                 m_location.advanceColumn(2);
             } else {
-                isOctalish = true;
+                //isOctalish = true;
             }
         }
 
